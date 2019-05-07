@@ -1,4 +1,4 @@
-import 'babel-polyfill';
+import '@babel/polyfill';
 import should from 'should/as-function';
 import ComplexClass from './fixtures/ComplexClass';
 
