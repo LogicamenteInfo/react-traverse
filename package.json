@@ -1,8 +1,9 @@
 {
-  "name": "@simple-contacts/react-traverse",
-  "version": "1.0.10",
+  "name": "@logicamente.info/react-traverse",
+  "version": "1.0.0",
   "description": "React Nodes and Components Traversal",
   "main": "dist/index.js",
+  "license": "MIT",
   "scripts": {
     "test": "eslint . && mocha --compilers js:babel-core/register ./src/__tests__/*.js",
     "build": "babel src --out-dir dist",
@@ -29,13 +30,13 @@
     "lint-staged": "^7.1.2",
     "mocha": "^5.2.0",
     "prettier": "1.13.3",
-    "react": "^16",
-    "react-dom": "^16",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "sha1": "^1.1.1",
     "should": "^13.2.1"
   },
   "dependencies": {
-    "prop-types": "^15.6.1"
+    "prop-types": "^15.7.2"
   },
   "lint-staged": {
     "*.js": [
@@ -44,6 +45,6 @@
     ]
   },
   "peerDependencies": {
-    "react": "^16"
+    "react": "^16 || ^17"
   }
 }
